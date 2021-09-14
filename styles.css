@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('./office.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+} 
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  display: block;
+  max-height: 812px;
+}
+
+.title-page {
+  background-color: #2F4858;
+  width: 100%;
+  height: 150px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.title-page img {
+  height: 70%;
+  width: auto 70%;
+}
+
+.title-page p {
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.title-page a{
+  color: #000000;
+}
+
+.grey-square {
+  text-align: center;
+  background: #F6AE2D;
+  border: solid 5px #000000;
+  max-height: 100px;
+  margin: 50px 50px 0 50px;
+  padding-bottom: 400px;
+  border-radius: 10px;
+}
+
+.text {
+  padding: 20px 50px;
+  font-family: 'American Typewriter', sans-serif;
+  font-weight: bold;
+}
+
+.text p {
+  padding-top: 50px;
+  font-size: 30px;
+  bottom: 250px;
+  left: 0;
+  right: 0;
+  position:absolute;
+}
+
+.button {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.button input {
+  border: none;
+  outline: none;
+  background-color: purple;
+  padding: 1rem 20px 1rem 20px;
+  border-radius: 8px;
+  letter-spacing: 0.7px;
+  background-color: #5086bd;
+  color: #fff;
+  font-size: 21px;
+  font-family:'American Typewriter', sans-serif;
+  cursor: pointer;
+  box-shadow: rgba(0, 9, 61, 0.2) 0px 4px 8px 0px;
+  text-align: center;
+}
+
+.button input:hover {
+  -webkit-transform:scale(1.07);
+  -webkit-transition:all .5s ease;
+}
+
+
+@media (max-width:900px) {
+  .grey-square {
+    text-align: center;
+    margin: 20px 20px 0 20px;
+    padding-bottom: 500px;
+  }
+
+  .text {
+    padding: 20px 20px;
+  }
+
+  .text h1 {
+    font-size: 25px
+  }
+
+  .text p {
+    font-size: 30px;
+    bottom: 170px;
+  }
+  
+}
