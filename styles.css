@@ -56,16 +56,11 @@ body{
 .text {
   padding: 20px 50px;
   font-family: 'American Typewriter', sans-serif;
-  font-weight: bold;
 }
 
 .text p {
   padding-top: 50px;
   font-size: 30px;
-  bottom: 250px;
-  left: 0;
-  right: 0;
-  position:absolute;
 }
 
 .button {
@@ -112,7 +107,6 @@ body{
 
   .text p {
     font-size: 30px;
-    bottom: 170px;
   }
   
 }
